@@ -1,0 +1,24 @@
+[
+  {
+    "time": "2026-08-14 21:40:31",
+    "task_id": "T01",
+    "task_name": "论文精读-顶会论文",
+    "model": "Gemini-2.0-Flash",
+    "event_type": "api_timeout",
+    "reason": "触发 API 超时(端到端耗时超过阈值)",
+    "fallback_to": "Claude-3.5-Sonnet",
+    "fallback_est_cost": 0.4455,
+    "fallback_est_quality": 86.8
+  },
+  {
+    "time": "2026-08-14 21:40:31",
+    "task_id": "T02",
+    "task_name": "文献检索-系统综述",
+    "model": "Gemini-2.0-Flash",
+    "event_type": "api_rate_limit",
+    "reason": "触发 API 限流(RPM 余量不足)",
+    "fallback_to": "DeepSeek-V3",
+    "fallback_est_cost": 0.064,
+    "fallback_est_quality": 90.36
+  }
+]

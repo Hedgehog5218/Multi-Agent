@@ -1,0 +1,11 @@
+﻿task_id,task_name,task_type,chosen_model,score,est_cost_rmb,est_quality,latency_s,event_count,fallback_chain
+T01,论文精读-顶会论文,论文精读,Claude-3.5-Sonnet,0.7734,0.4455,86.8,193.68,1,Gemini-2.0-Flash -> Claude-3.5-Sonnet -> DeepSeek-V3 -> Llama-3.1-405B -> GPT-4o
+T02,文献检索-系统综述,文献检索,DeepSeek-V3,0.7135,0.064,90.36,268.984,1,Gemini-2.0-Flash -> DeepSeek-V3 -> Claude-3.5-Sonnet -> Llama-3.1-405B -> GPT-4o
+T03,代码复现-工程代码审查重构,代码复现,Claude-3.5-Sonnet,0.9346,0.6075,92.0,327.773,0,Claude-3.5-Sonnet -> GPT-4o -> Gemini-2.0-Flash -> Qwen2.5-Max -> Llama-3.1-405B
+T04,公式推导-竞赛级数学,公式推导,Qwen2.5-72B-Instruct,0.9889,0.034,83.1,85.115,0,Qwen2.5-72B-Instruct -> DeepSeek-V3 -> GPT-4o -> Gemini-2.0-Flash -> Llama-3.1-405B
+T05,数据分析-统计建模,数据分析,Gemini-2.0-Flash,0.9125,0.00864,75.6,77.167,0,Gemini-2.0-Flash -> DeepSeek-V3 -> Qwen2.5-72B-Instruct -> Claude-3.5-Sonnet -> GPT-4o
+T06,学术写作-基金申请书,学术写作,Gemini-2.0-Flash,0.964,0.0135,86.65,104.667,0,Gemini-2.0-Flash -> Qwen2.5-Max -> DeepSeek-V3 -> Claude-3.5-Sonnet -> Llama-3.1-405B
+T07,图表解读-多模态图表,图表解读,Gemini-2.0-Flash,0.8525,0.0081,88.95,75.5,0,Gemini-2.0-Flash -> Claude-3.5-Sonnet -> GPT-4o-mini -> GPT-4o -> DeepSeek-V3
+T08,审稿回复-多轮意见,审稿回复,Gemini-2.0-Flash,0.959,0.010935,90.4,90.5,0,Gemini-2.0-Flash -> Qwen2.5-Max -> DeepSeek-V3 -> GLM-4 -> GPT-4o-mini
+T09,论文精读-方法章节,论文精读,Gemini-2.0-Flash,0.8782,0.00729,86.74,60.5,0,Gemini-2.0-Flash -> DeepSeek-V3 -> Claude-3.5-Sonnet -> Llama-3.1-405B -> GPT-4o
+T10,文献检索-快速筛选,文献检索,Gemini-2.0-Flash,0.8714,0.012285,91.16,132.167,0,Gemini-2.0-Flash -> DeepSeek-V3 -> GPT-4o-mini -> GLM-4 -> Qwen2.5-72B-Instruct

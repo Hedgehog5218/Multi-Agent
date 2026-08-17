@@ -1,0 +1,491 @@
+[
+  {
+    "task": "T01",
+    "task_name": "论文精读-顶会论文",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.0135,
+    "avg_quality": 85.94,
+    "final_quality": 86.74,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 89.97,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 87.86,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 87.07,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 78.86,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T02",
+    "task_name": "文献检索-系统综述",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.0216,
+    "avg_quality": 90.69,
+    "final_quality": 91.16,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 88.25,
+        "cost": 0.0054,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 88.95,
+        "cost": 0.0054,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 96.56,
+        "cost": 0.0054,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 88.99,
+        "cost": 0.0054,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T03",
+    "task_name": "代码复现-工程代码审查重构",
+    "chosen_model": "Claude-3.5-Sonnet",
+    "total_cost": 0.6075,
+    "avg_quality": 92.69,
+    "final_quality": 92.0,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Claude-3.5-Sonnet",
+        "quality_theory": 92.0,
+        "quality_obs": 93.04,
+        "cost": 0.151875,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Claude-3.5-Sonnet",
+        "quality_theory": 92.0,
+        "quality_obs": 91.11,
+        "cost": 0.151875,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Claude-3.5-Sonnet",
+        "quality_theory": 92.0,
+        "quality_obs": 93.8,
+        "cost": 0.151875,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Claude-3.5-Sonnet",
+        "quality_theory": 92.0,
+        "quality_obs": 92.82,
+        "cost": 0.151875,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T04",
+    "task_name": "公式推导-竞赛级数学",
+    "chosen_model": "Qwen2.5-72B-Instruct",
+    "total_cost": 0.034,
+    "avg_quality": 82.22,
+    "final_quality": 83.1,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Qwen2.5-72B-Instruct",
+        "quality_theory": 83.1,
+        "quality_obs": 84.81,
+        "cost": 0.0085,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Qwen2.5-72B-Instruct",
+        "quality_theory": 83.1,
+        "quality_obs": 77.68,
+        "cost": 0.0085,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Qwen2.5-72B-Instruct",
+        "quality_theory": 83.1,
+        "quality_obs": 83.94,
+        "cost": 0.0085,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Qwen2.5-72B-Instruct",
+        "quality_theory": 83.1,
+        "quality_obs": 82.44,
+        "cost": 0.0085,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T05",
+    "task_name": "数据分析-统计建模",
+    "chosen_model": "DeepSeek-V3",
+    "total_cost": 0.01712,
+    "avg_quality": 75.92,
+    "final_quality": 78.05,
+    "switch_count": 1,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 75.6,
+        "quality_obs": 72.76,
+        "cost": 0.00216,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "DeepSeek-V3",
+        "quality_theory": 75.6,
+        "quality_obs": 71.85,
+        "cost": 0.00216,
+        "switched": true,
+        "reason": "中间质量 71.8 低于预期 75.6，切换至 DeepSeek-V3（质量 78.1）"
+      },
+      {
+        "step": 3,
+        "model": "DeepSeek-V3",
+        "quality_theory": 78.05,
+        "quality_obs": 84.61,
+        "cost": 0.0064,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "DeepSeek-V3",
+        "quality_theory": 78.05,
+        "quality_obs": 74.45,
+        "cost": 0.0064,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": [
+      {
+        "step": 2,
+        "from": "Gemini-2.0-Flash",
+        "to": "DeepSeek-V3",
+        "from_quality": 75.6,
+        "obs_quality": 71.85,
+        "to_quality": 78.05
+      }
+    ]
+  },
+  {
+    "task": "T06",
+    "task_name": "学术写作-基金申请书",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.0135,
+    "avg_quality": 85.44,
+    "final_quality": 86.65,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.65,
+        "quality_obs": 86.52,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.65,
+        "quality_obs": 83.71,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.65,
+        "quality_obs": 82.83,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.65,
+        "quality_obs": 88.72,
+        "cost": 0.003375,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T07",
+    "task_name": "图表解读-多模态图表",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.0081,
+    "avg_quality": 86.72,
+    "final_quality": 88.95,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 88.95,
+        "quality_obs": 84.21,
+        "cost": 0.002025,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 88.95,
+        "quality_obs": 91.89,
+        "cost": 0.002025,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 88.95,
+        "quality_obs": 86.36,
+        "cost": 0.002025,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 88.95,
+        "quality_obs": 84.43,
+        "cost": 0.002025,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T08",
+    "task_name": "审稿回复-多轮意见",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.010936,
+    "avg_quality": 93.2,
+    "final_quality": 90.4,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 90.4,
+        "quality_obs": 94.72,
+        "cost": 0.002734,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 90.4,
+        "quality_obs": 96.76,
+        "cost": 0.002734,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 90.4,
+        "quality_obs": 92.04,
+        "cost": 0.002734,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 90.4,
+        "quality_obs": 89.27,
+        "cost": 0.002734,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T09",
+    "task_name": "论文精读-方法章节",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.007288,
+    "avg_quality": 91.95,
+    "final_quality": 86.74,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 97.71,
+        "cost": 0.001822,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 92.89,
+        "cost": 0.001822,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 88.45,
+        "cost": 0.001822,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 86.74,
+        "quality_obs": 88.77,
+        "cost": 0.001822,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  },
+  {
+    "task": "T10",
+    "task_name": "文献检索-快速筛选",
+    "chosen_model": "Gemini-2.0-Flash",
+    "total_cost": 0.012284,
+    "avg_quality": 89.7,
+    "final_quality": 91.16,
+    "switch_count": 0,
+    "steps": [
+      {
+        "step": 1,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 85.03,
+        "cost": 0.003071,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 2,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 89.42,
+        "cost": 0.003071,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 3,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 88.52,
+        "cost": 0.003071,
+        "switched": false,
+        "reason": ""
+      },
+      {
+        "step": 4,
+        "model": "Gemini-2.0-Flash",
+        "quality_theory": 91.16,
+        "quality_obs": 95.84,
+        "cost": 0.003071,
+        "switched": false,
+        "reason": ""
+      }
+    ],
+    "events": []
+  }
+]

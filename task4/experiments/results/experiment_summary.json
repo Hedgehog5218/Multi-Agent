@@ -1,0 +1,30 @@
+[
+  {
+    "strategy": "router",
+    "meta": "完整路由系统",
+    "total_cost_rmb": 1.2118,
+    "avg_quality": 87.18,
+    "total_latency_s": 1416.05
+  },
+  {
+    "strategy": "best_quality",
+    "meta": "全量能力最强(Claude-3.5-Sonnet)",
+    "total_cost_rmb": 3.9893,
+    "avg_quality": 85.57,
+    "total_latency_s": 2277.73
+  },
+  {
+    "strategy": "cheapest",
+    "meta": "全量成本最低(Gemini-2.0-Flash)",
+    "total_cost_rmb": 0.1208,
+    "avg_quality": 85.91,
+    "total_latency_s": 1046.67
+  },
+  {
+    "strategy": "random",
+    "meta": "随机路由",
+    "total_cost_rmb": 2.0473,
+    "avg_quality": 83.97,
+    "total_latency_s": 1788.42
+  }
+]
