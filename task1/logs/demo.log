@@ -1,0 +1,94 @@
+[2026-08-13T09:17:39.130+00:00] #  1 BROADCAST       coordinator -> all         | {"phase": "decompose", "plan": {"proposal": "基于多智能体强化学习的分布式计算资源调度方法研究", "sections": {"p...
+[2026-08-13T09:17:39.132+00:00] #  2 ACK_RECEIPT     literature  -> coordinator | {"ack_for": "msg-cf74caf308f241ae8351a3501091a565", "status": "received"}
+[2026-08-13T09:17:39.134+00:00] #  3 ACK_RECEIPT     method      -> coordinator | {"ack_for": "msg-cf74caf308f241ae8351a3501091a565", "status": "received"}
+[2026-08-13T09:17:39.135+00:00] #  4 ACK_RECEIPT     experiment  -> coordinator | {"ack_for": "msg-cf74caf308f241ae8351a3501091a565", "status": "received"}
+[2026-08-13T09:17:39.136+00:00] #  5 ACK_RECEIPT     verifier    -> coordinator | {"ack_for": "msg-cf74caf308f241ae8351a3501091a565", "status": "received"}
+[2026-08-13T09:17:39.137+00:00] #  6 ACK_RECEIPT     polish      -> coordinator | {"ack_for": "msg-cf74caf308f241ae8351a3501091a565", "status": "received"}
+[2026-08-13T09:17:39.140+00:00] #  7 TASK_ASSIGN     coordinator -> literature  | {"type": "draft", "sections": [{"section_id": "project_basis"}, {"section_id": "referen...
+[2026-08-13T09:17:39.142+00:00] #  8 TASK_ASSIGN     coordinator -> method      | {"type": "draft", "sections": [{"section_id": "research_content"}, {"section_id": "tech...
+[2026-08-13T09:17:39.147+00:00] #  9 TASK_ASSIGN     coordinator -> experiment  | {"type": "draft", "sections": [{"section_id": "experiment_plan"}, {"section_id": "expec...
+[2026-08-13T09:17:52.521+00:00] # 10 LOCK_REQUEST    method      -> coordinator | {"section_id": "research_content", "intent": "write"}
+[2026-08-13T09:17:52.522+00:00] # 11 LOCK_GRANT      coordinator -> method      | {"section_id": "research_content", "status": "granted"}
+[2026-08-13T09:17:52.523+00:00] # 12 LOCK_RELEASE    method      -> coordinator | {"section_id": "research_content"}
+[2026-08-13T09:17:52.525+00:00] # 13 ACK_RECEIPT     coordinator -> method      | {"ack_for": "msg-6028fd1bed1f4451acaa952d25603fee", "status": "ok"}
+[2026-08-13T09:17:55.178+00:00] # 14 LOCK_REQUEST    experiment  -> coordinator | {"section_id": "experiment_plan", "intent": "write"}
+[2026-08-13T09:17:55.179+00:00] # 15 LOCK_GRANT      coordinator -> experiment  | {"section_id": "experiment_plan", "status": "granted"}
+[2026-08-13T09:17:55.180+00:00] # 16 LOCK_RELEASE    experiment  -> coordinator | {"section_id": "experiment_plan"}
+[2026-08-13T09:17:55.181+00:00] # 17 ACK_RECEIPT     coordinator -> experiment  | {"ack_for": "msg-7654ffba55544ffe9b2202ac7e340d18", "status": "ok"}
+[2026-08-13T09:17:56.151+00:00] # 18 LOCK_REQUEST    literature  -> coordinator | {"section_id": "project_basis", "intent": "write"}
+[2026-08-13T09:17:56.153+00:00] # 19 LOCK_GRANT      coordinator -> literature  | {"section_id": "project_basis", "status": "granted"}
+[2026-08-13T09:17:56.154+00:00] # 20 LOCK_RELEASE    literature  -> coordinator | {"section_id": "project_basis"}
+[2026-08-13T09:17:56.155+00:00] # 21 ACK_RECEIPT     coordinator -> literature  | {"ack_for": "msg-8df934f6cba54f5b87b96efa67eae9f6", "status": "ok"}
+[2026-08-13T09:17:56.156+00:00] # 22 LOCK_REQUEST    literature  -> coordinator | {"section_id": "references", "intent": "write"}
+[2026-08-13T09:17:56.158+00:00] # 23 LOCK_GRANT      coordinator -> literature  | {"section_id": "references", "status": "granted"}
+[2026-08-13T09:17:56.160+00:00] # 24 LOCK_RELEASE    literature  -> coordinator | {"section_id": "references"}
+[2026-08-13T09:17:56.160+00:00] # 25 ACK_RECEIPT     coordinator -> literature  | {"ack_for": "msg-267dd0791e4f4784934d347a6d83b064", "status": "ok"}
+[2026-08-13T09:17:56.161+00:00] # 26 RESULT_SUBMIT   literature  -> coordinator | {"task": "draft", "status": "ok"}
+[2026-08-13T09:18:07.683+00:00] # 27 LOCK_REQUEST    method      -> coordinator | {"section_id": "technical_route", "intent": "write"}
+[2026-08-13T09:18:07.686+00:00] # 28 LOCK_GRANT      coordinator -> method      | {"section_id": "technical_route", "status": "granted"}
+[2026-08-13T09:18:07.687+00:00] # 29 LOCK_RELEASE    method      -> coordinator | {"section_id": "technical_route"}
+[2026-08-13T09:18:07.688+00:00] # 30 ACK_RECEIPT     coordinator -> method      | {"ack_for": "msg-19a11049834e4413adfced39dde36a5d", "status": "ok"}
+[2026-08-13T09:18:07.689+00:00] # 31 RESULT_SUBMIT   method      -> coordinator | {"task": "draft", "status": "ok"}
+[2026-08-13T09:18:07.825+00:00] # 32 LOCK_REQUEST    experiment  -> coordinator | {"section_id": "expected_outcomes", "intent": "write"}
+[2026-08-13T09:18:07.827+00:00] # 33 LOCK_GRANT      coordinator -> experiment  | {"section_id": "expected_outcomes", "status": "granted"}
+[2026-08-13T09:18:07.828+00:00] # 34 LOCK_RELEASE    experiment  -> coordinator | {"section_id": "expected_outcomes"}
+[2026-08-13T09:18:07.830+00:00] # 35 ACK_RECEIPT     coordinator -> experiment  | {"ack_for": "msg-4e48c438ab0e4bdaba19f2637dd54ac1", "status": "ok"}
+[2026-08-13T09:18:07.831+00:00] # 36 RESULT_SUBMIT   experiment  -> coordinator | {"task": "draft", "status": "ok"}
+[2026-08-13T09:18:07.833+00:00] # 37 TASK_ASSIGN     coordinator -> verifier    | {"type": "review", "scope": "all_sections"}
+[2026-08-13T09:18:07.835+00:00] # 38 CONFLICT_NOTIFY verifier    -> coordinator | {"conflict": {"conflict_id": "C1-gpu-budget", "rule": "R1 算力一致性", "severity": "CRITICAL...
+[2026-08-13T09:18:07.836+00:00] # 39 ACK_RECEIPT     coordinator -> verifier    | {"ack_for": "msg-cce4f0b79da747afa7ebc0061d4825b6", "status": "ok", "received": "C1-gpu...
+[2026-08-13T09:18:07.837+00:00] # 40 CONFLICT_NOTIFY verifier    -> coordinator | {"conflict": {"conflict_id": "C2-terminology", "rule": "R2 术语一致性", "severity": "HIGH", ...
+[2026-08-13T09:18:07.838+00:00] # 41 ACK_RECEIPT     coordinator -> verifier    | {"ack_for": "msg-11e06e53f68d4ffb8e0c9c849c7de07a", "status": "ok", "received": "C2-ter...
+[2026-08-13T09:18:07.839+00:00] # 42 RESULT_SUBMIT   verifier    -> coordinator | {"task": "review", "status": "ok", "conflicts_found": 2}
+[2026-08-13T09:18:07.841+00:00] # 43 INFO_QUERY      coordinator -> method      | {"query": "gpu_hours", "section_id": "research_content", "conflict_id": "C1-gpu-budget"}
+[2026-08-13T09:18:07.842+00:00] # 44 RESULT_SUBMIT   method      -> coordinator | {"query": "gpu_hours", "proposal": {"current": 3000, "can_reduce_to": 2200, "optimizati...
+[2026-08-13T09:18:07.843+00:00] # 45 INFO_QUERY      coordinator -> experiment  | {"query": "gpu_budget", "section_id": "experiment_plan", "conflict_id": "C1-gpu-budget"}
+[2026-08-13T09:18:07.844+00:00] # 46 RESULT_SUBMIT   experiment  -> coordinator | {"query": "gpu_budget", "proposal": {"current": 2000, "can_increase_to": 2200, "optimiz...
+[2026-08-13T09:18:07.847+00:00] # 47 TASK_ASSIGN     coordinator -> method      | {"type": "revise", "decisions": {"gpu_hours_claim": 2200, "gpu_budget": 2200, "reason":...
+[2026-08-13T09:18:07.849+00:00] # 48 TASK_ASSIGN     coordinator -> experiment  | {"type": "revise", "decisions": {"gpu_hours_claim": 2200, "gpu_budget": 2200, "reason":...
+[2026-08-13T09:18:20.594+00:00] # 49 LOCK_REQUEST    method      -> coordinator | {"section_id": "research_content", "intent": "write"}
+[2026-08-13T09:18:20.595+00:00] # 50 LOCK_GRANT      coordinator -> method      | {"section_id": "research_content", "status": "granted"}
+[2026-08-13T09:18:20.597+00:00] # 51 LOCK_RELEASE    method      -> coordinator | {"section_id": "research_content"}
+[2026-08-13T09:18:20.598+00:00] # 52 ACK_RECEIPT     coordinator -> method      | {"ack_for": "msg-003cdd825b86488396b11235c5ea1768", "status": "ok"}
+[2026-08-13T09:18:20.599+00:00] # 53 RESULT_SUBMIT   method      -> coordinator | {"task": "revise", "status": "ok"}
+[2026-08-13T09:18:21.643+00:00] # 54 LOCK_REQUEST    experiment  -> coordinator | {"section_id": "experiment_plan", "intent": "write"}
+[2026-08-13T09:18:21.644+00:00] # 55 LOCK_GRANT      coordinator -> experiment  | {"section_id": "experiment_plan", "status": "granted"}
+[2026-08-13T09:18:21.646+00:00] # 56 LOCK_RELEASE    experiment  -> coordinator | {"section_id": "experiment_plan"}
+[2026-08-13T09:18:21.647+00:00] # 57 ACK_RECEIPT     coordinator -> experiment  | {"ack_for": "msg-5beaf16c58cc416a99f1272646f62dea", "status": "ok"}
+[2026-08-13T09:18:21.648+00:00] # 58 RESULT_SUBMIT   experiment  -> coordinator | {"task": "revise", "status": "ok"}
+[2026-08-13T09:18:21.650+00:00] # 59 INFO_QUERY      coordinator -> verifier    | {"query": "recheck", "conflict_id": "C1-gpu-budget"}
+[2026-08-13T09:18:21.652+00:00] # 60 RESULT_SUBMIT   verifier    -> coordinator | {"query": "recheck", "remaining_conflicts": [{"conflict_id": "C2-terminology", "rule": ...
+[2026-08-13T09:18:21.654+00:00] # 61 BROADCAST       coordinator -> all         | {"phase": "conflict_resolved", "conflict_id": "C1-gpu-budget", "decision": {"gpu_hours_...
+[2026-08-13T09:18:21.655+00:00] # 62 ACK_RECEIPT     literature  -> coordinator | {"ack_for": "msg-40c604feb87b498fbc747b63bff02672", "status": "received"}
+[2026-08-13T09:18:21.656+00:00] # 63 ACK_RECEIPT     method      -> coordinator | {"ack_for": "msg-40c604feb87b498fbc747b63bff02672", "status": "received"}
+[2026-08-13T09:18:21.657+00:00] # 64 ACK_RECEIPT     experiment  -> coordinator | {"ack_for": "msg-40c604feb87b498fbc747b63bff02672", "status": "received"}
+[2026-08-13T09:18:21.658+00:00] # 65 ACK_RECEIPT     verifier    -> coordinator | {"ack_for": "msg-40c604feb87b498fbc747b63bff02672", "status": "received"}
+[2026-08-13T09:18:21.658+00:00] # 66 ACK_RECEIPT     polish      -> coordinator | {"ack_for": "msg-40c604feb87b498fbc747b63bff02672", "status": "received"}
+[2026-08-13T09:18:21.659+00:00] # 67 INFO_QUERY      coordinator -> method      | {"query": "terminology", "section_id": "research_content", "conflict_id": "C2-terminolo...
+[2026-08-13T09:18:21.660+00:00] # 68 RESULT_SUBMIT   method      -> coordinator | {"query": "terminology", "proposal": {"unify_to": "平均作业完成时间(JCT)"}}
+[2026-08-13T09:18:21.662+00:00] # 69 INFO_QUERY      coordinator -> experiment  | {"query": "terminology", "section_id": "experiment_plan", "conflict_id": "C2-terminology"}
+[2026-08-13T09:18:21.663+00:00] # 70 RESULT_SUBMIT   experiment  -> coordinator | {"query": "terminology", "proposal": {"unify_to": "平均作业完成时间(JCT)"}}
+[2026-08-13T09:18:21.665+00:00] # 71 TASK_ASSIGN     coordinator -> method      | {"type": "revise", "decisions": {"metric_terms": ["平均作业完成时间(JCT)"], "makespan_note": ""...
+[2026-08-13T09:18:21.668+00:00] # 72 TASK_ASSIGN     coordinator -> experiment  | {"type": "revise", "decisions": {"metric_terms": ["平均作业完成时间(JCT)"], "makespan_note": ""...
+[2026-08-13T09:18:21.670+00:00] # 73 RESULT_SUBMIT   experiment  -> coordinator | {"task": "revise", "status": "ok"}
+[2026-08-13T09:18:47.421+00:00] # 74 LOCK_REQUEST    method      -> coordinator | {"section_id": "research_content", "intent": "write"}
+[2026-08-13T09:18:47.423+00:00] # 75 LOCK_GRANT      coordinator -> method      | {"section_id": "research_content", "status": "granted"}
+[2026-08-13T09:18:47.424+00:00] # 76 LOCK_RELEASE    method      -> coordinator | {"section_id": "research_content"}
+[2026-08-13T09:18:47.425+00:00] # 77 ACK_RECEIPT     coordinator -> method      | {"ack_for": "msg-6dc77d7b49d7430b95539525521e8f6f", "status": "ok"}
+[2026-08-13T09:18:47.426+00:00] # 78 RESULT_SUBMIT   method      -> coordinator | {"task": "revise", "status": "ok"}
+[2026-08-13T09:18:47.427+00:00] # 79 INFO_QUERY      coordinator -> verifier    | {"query": "recheck", "conflict_id": "C2-terminology"}
+[2026-08-13T09:18:47.429+00:00] # 80 RESULT_SUBMIT   verifier    -> coordinator | {"query": "recheck", "remaining_conflicts": [], "resolved": true}
+[2026-08-13T09:18:47.430+00:00] # 81 BROADCAST       coordinator -> all         | {"phase": "conflict_resolved", "conflict_id": "C2-terminology", "decision": {"metric_te...
+[2026-08-13T09:18:47.431+00:00] # 82 ACK_RECEIPT     literature  -> coordinator | {"ack_for": "msg-acebfe104d9d4531ad88c31ae9decaae", "status": "received"}
+[2026-08-13T09:18:47.432+00:00] # 83 ACK_RECEIPT     method      -> coordinator | {"ack_for": "msg-acebfe104d9d4531ad88c31ae9decaae", "status": "received"}
+[2026-08-13T09:18:47.433+00:00] # 84 ACK_RECEIPT     experiment  -> coordinator | {"ack_for": "msg-acebfe104d9d4531ad88c31ae9decaae", "status": "received"}
+[2026-08-13T09:18:47.434+00:00] # 85 ACK_RECEIPT     verifier    -> coordinator | {"ack_for": "msg-acebfe104d9d4531ad88c31ae9decaae", "status": "received"}
+[2026-08-13T09:18:47.434+00:00] # 86 ACK_RECEIPT     polish      -> coordinator | {"ack_for": "msg-acebfe104d9d4531ad88c31ae9decaae", "status": "received"}
+[2026-08-13T09:18:47.435+00:00] # 87 TASK_ASSIGN     coordinator -> polish      | {"type": "merge"}
+[2026-08-13T09:18:47.440+00:00] # 88 RESULT_SUBMIT   polish      -> coordinator | {"output_path": "logs\\final_proposal.md", "char_count": 8033, "section_count": 6, "ter...
+[2026-08-13T09:18:47.441+00:00] # 89 BROADCAST       coordinator -> all         | {"phase": "complete", "final_doc": "logs\\final_proposal.md"}
+[2026-08-13T09:18:47.442+00:00] # 90 ACK_RECEIPT     literature  -> coordinator | {"ack_for": "msg-3f8041b454f542c1b3fd2a9a135dedfa", "status": "received"}
+[2026-08-13T09:18:47.443+00:00] # 91 ACK_RECEIPT     method      -> coordinator | {"ack_for": "msg-3f8041b454f542c1b3fd2a9a135dedfa", "status": "received"}
+[2026-08-13T09:18:47.444+00:00] # 92 ACK_RECEIPT     experiment  -> coordinator | {"ack_for": "msg-3f8041b454f542c1b3fd2a9a135dedfa", "status": "received"}
+[2026-08-13T09:18:47.445+00:00] # 93 ACK_RECEIPT     verifier    -> coordinator | {"ack_for": "msg-3f8041b454f542c1b3fd2a9a135dedfa", "status": "received"}
+[2026-08-13T09:18:47.446+00:00] # 94 ACK_RECEIPT     polish      -> coordinator | {"ack_for": "msg-3f8041b454f542c1b3fd2a9a135dedfa", "status": "received"}

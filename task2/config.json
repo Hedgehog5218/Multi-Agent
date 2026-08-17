@@ -1,0 +1,16 @@
+{
+  "llm": {
+    "api_key": "sk-JvnxD26K9pptwxtaG79Li6eYFs1mfAODmUTe1m45gm7lAvka",
+    "base_url": "https://platform.shuyanai.com/v1",
+    "model": "qwen3.7-flash",
+    "mode": "vision",
+    "proxy": "",
+    "note": "主后端：数眼智能 qwen3.7-flash 多模态视觉（端到端看图）。调用失败自动降级到 fallback（DeepSeek 文本+OCR），保证一键运行始终可用。",
+    "fallback": {
+      "api_key": "sk-6dd73087ccb54c11b131da56efa2cf0f",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-chat",
+      "mode": "text"
+    }
+  }
+}
